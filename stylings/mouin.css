@@ -1,7 +1,10 @@
 *{
-    background-image: url(/images/backgroud1.JPEG);
-    height: 100%; 
-    background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-image: url(/images/popcorn.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -35,7 +38,7 @@ input {
     width: 300px;  
     height: auto;       
     padding: 20px;           
-    border: 1px solid #ffffff; 
+    /*border: 1px solid #ffffff; */
     box-sizing: border-box; 
     display: flex;   
     justify-content: center;
@@ -43,9 +46,9 @@ input {
     flex-direction: column; 
     position: absolute;     
     top: 50%;                
-    left: 50%;              
+    left: 70%;              
     transform: translate(-50%, -50%); 
-    color:red
+    
   }
 
   h2 {
@@ -55,9 +58,10 @@ input {
     align-items: center;     
     flex-direction: column; 
     position: absolute;     
-    top: 20%;               
-    left: 55%;               
+    top: 24%;               
+    left: 75.5%;               
     transform: translate(-50%, -50%);
-    color:white
+    color:rgb(172, 8, 8)
   }
-  
+
+
