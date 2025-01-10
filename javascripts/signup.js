@@ -17,7 +17,7 @@ console.log(users)
         localStorage.setItem("users",JSON.stringify(users))
         alert('Login successful! Redirecting to the next page...')
     
-        window.location.href = '/htmls/index3.html'
+        window.location.href = '/htmls/home.html'
     })
 
     $('.sign up').click(function (e) {
