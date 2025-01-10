@@ -1,0 +1,67 @@
+*{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background-image: url(/images/popcorn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    color: #000000;
+    background-color: white;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .container {
+    width: 300px;  
+    height: auto;       
+    padding: 20px;           
+    /*border: 1px solid #ffffff; */
+    box-sizing: border-box; 
+    display: flex;   
+    justify-content: center;
+    align-items: center;     
+    flex-direction: column; 
+    position: absolute;     
+    top: 50%;                
+    left: 70%;              
+    transform: translate(-50%, -50%); 
+    
+  }
+
+  h2 {
+    width: 300px;
+    height: auto;
+    justify-content: center;
+    align-items: center;     
+    flex-direction: column; 
+    position: absolute;     
+    top: 24%;               
+    left: 75.5%;               
+    transform: translate(-50%, -50%);
+    color:rgb(172, 8, 8)
+  }
+
+
